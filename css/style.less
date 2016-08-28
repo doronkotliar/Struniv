@@ -1,0 +1,129 @@
+// Fonts
+
+@font-face {
+  font-family: "Century Gothic";
+  src: url("../fonts/CenturyGothic.eot");
+  src: url("../fonts/CenturyGothic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/CenturyGothicRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+// Common
+
+ul {
+  text-align: center;
+  margin-top: 86px;
+  font-size: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  font-size: 16px;
+  padding-bottom: 25px;
+  :hover {
+    border-bottom: 1px solid;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: @text-color;
+}
+
+.frame {
+  width: 310px;
+  height: 357px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+// Colors
+
+@bgcolor: #eee;
+@text-color: #000;
+@border: #cecece;
+
+// Header section
+
+.header {
+  background-image: url("../images/main.jpg");
+  background-size: cover;
+  height: 621px;
+}
+
+.main-menu {
+  background-image: url("../images/menu-bg.png");
+  background-size: cover;
+  height: 113px;
+}
+.listing {
+  margin: 0 auto;
+  width: 1148px;
+  font-family: "Century Gothic";
+
+  &_block {
+    font-size: 36px;
+    margin-top: 26px;
+  }
+
+  &_block:hover {
+    border-bottom: 1px solid;
+  }
+}
+
+// Content section
+
+.content {
+background: @bgcolor;
+margin-top: -13px;
+height: 600px;
+}
+
+.content-container {
+  margin:  0 auto;
+  max-width: 1580px;
+  padding-top: 5px;
+
+  &_block1 {
+    background-image: url("../images/menu.jpg");
+  }
+
+  &_block2 {
+    width: 700px;
+  }
+
+  &_block3 {
+     background-image: url("../images/profile.jpg");
+   }
+}
+.article {
+ text-align: center;
+
+  &_date {
+    font-size: 35px;
+  }
+
+  &_name {
+    text-align: center;
+    font-size: 29px;
+    margin-top: 74px;
+    padding-bottom: 56px;
+    border-bottom: 1px solid @border;
+  }
+
+  &_text {
+    margin-top: 53px;
+    display: inline-block;
+    width: 583px;
+    height: 43px;
+    font-family: Georgia;
+    font-size: 17px;
+    line-height: 28px;
+  }
+}
+

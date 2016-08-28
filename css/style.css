@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Century Gothic";
+  src: url("../fonts/CenturyGothic.eot");
+  src: url("../fonts/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothicRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+ul {
+  text-align: center;
+  margin-top: 86px;
+  font-size: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+  font-size: 16px;
+  padding-bottom: 25px;
+}
+li :hover {
+  border-bottom: 1px solid;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.frame {
+  width: 310px;
+  height: 357px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  background-image: url("../images/main.jpg");
+  background-size: cover;
+  height: 621px;
+}
+.main-menu {
+  background-image: url("../images/menu-bg.png");
+  background-size: cover;
+  height: 113px;
+}
+.listing {
+  margin: 0 auto;
+  width: 1148px;
+  font-family: "Century Gothic";
+}
+.listing_block {
+  font-size: 36px;
+  margin-top: 26px;
+}
+.listing_block:hover {
+  border-bottom: 1px solid;
+}
+.content {
+  background: #eee;
+  margin-top: -13px;
+  height: 600px;
+}
+.content-container {
+  margin: 0 auto;
+  max-width: 1580px;
+  padding-top: 5px;
+}
+.content-container_block1 {
+  background-image: url("../images/menu.jpg");
+}
+.content-container_block2 {
+  width: 700px;
+}
+.content-container_block3 {
+  background-image: url("../images/profile.jpg");
+}
+.article {
+  text-align: center;
+}
+.article_date {
+  font-size: 35px;
+}
+.article_name {
+  text-align: center;
+  font-size: 29px;
+  margin-top: 74px;
+  padding-bottom: 56px;
+  border-bottom: 1px solid #cecece;
+}
+.article_text {
+  margin-top: 53px;
+  display: inline-block;
+  width: 583px;
+  height: 43px;
+  font-family: Georgia;
+  font-size: 17px;
+  line-height: 28px;
+}
